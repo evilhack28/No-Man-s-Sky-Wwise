@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95A69CAC-AE43-47F7-9B52-4B8456AA9BA4}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{95A69CAC-AE43-47F7-9B52-4B8456AA9BA4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="VR_Foley_Arm_Woosh" ID="{F973B9E3-1FE2-4519-B0A1-828C54381488}">
+					<Comment>1477277035</Comment>
+					<ChildrenList>
+						<Switch Name="Woosh_Play" ID="{21EEF9ED-AE1F-4424-8687-9F81FDC03BEE}">
+							<Comment>3643048712</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

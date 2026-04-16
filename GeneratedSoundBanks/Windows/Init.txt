@@ -1,0 +1,208 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Default Work Unit\Gameplay	89505537
+	306800208	Camera			\Default Work Unit\Camera	306800208
+	712354551	IsDead			\Default Work Unit\IsDead	712354551
+	1030152494	Suit_Gender			\Default Work Unit\Suit_Gender	1030152494
+	1176052424	Location			\Default Work Unit\Location	1176052424
+	1229948536	Environment			\Default Work Unit\Environment	1229948536
+	1534528569	VR			\Default Work Unit\VR	1534528569
+	1551306167	UI			\Default Work Unit\UI	1551306167
+	1648930842	Vehicle_Type			\Default Work Unit\Vehicle_Type	1648930842
+	1800566397	Hyperspace			\Default Work Unit\Hyperspace	1800566397
+	1976129319	Storm_Type			\Default Work Unit\Storm_Type	1976129319
+	2025709351	Vehicle			\Default Work Unit\Vehicle	2025709351
+	4267144225	Camouflage			\Default Work Unit\Camouflage	4267144225
+
+State	ID	Name	State Group			Notes
+	748895195	None	Gameplay			
+	782826392	Default	Gameplay			782826392
+	1082482811	Navigation	Gameplay			1082482811
+	2582085496	Exploration	Gameplay			2582085496
+	2764240573	Combat	Gameplay			2764240573
+	2883831984	Scanning	Gameplay			2883831984
+	3188984297	Fishing	Gameplay			3188984297
+	3742857336	Health_Low	Gameplay			3742857336
+	748895195	None	Camera			
+	782826392	Default	Camera			782826392
+	2761730720	Third_Person	Camera			2761730720
+	305400479	IsDead_No	IsDead			305400479
+	483831699	IsDead_Yes	IsDead			483831699
+	748895195	None	IsDead			
+	748895195	None	Suit_Gender			
+	930712164	Off	Suit_Gender			930712164
+	2204441813	Female	Suit_Gender			2204441813
+	3111576190	Male	Suit_Gender			3111576190
+	425131515	SpaceStation	Location			425131515
+	748895195	None	Location			
+	1038648139	Freighter	Location			1038648139
+	1067307294	SpaceStation_Abandoned	Location			1067307294
+	1412533597	SpaceStation_Anomaly	Location			1412533597
+	1834394558	Surface	Location			1834394558
+	1894431114	Ship_Interior	Location			1894431114
+	2145253833	Atmosphere	Location			2145253833
+	2170850785	Base_Building	Location			2170850785
+	2188131170	Nexus	Location			2188131170
+	2213237662	Underwater	Location			2213237662
+	2646434139	SpaceStation_Atlas	Location			2646434139
+	3339761385	Building	Location			3339761385
+	3741205522	Spacewalk	Location			3741205522
+	4005760589	SpaceStation_Pirate	Location			4005760589
+	4122393694	Cave	Location			4122393694
+	4164838345	Space	Location			4164838345
+	358999213	Lush	Environment			358999213
+	442447911	Barren	Environment			442447911
+	540301611	Lava	Environment			540301611
+	540648442	HydroGarden	Environment			540648442
+	542966132	Radioactive	Environment			542966132
+	579662040	Gas	Environment			579662040
+	748895195	None	Environment			
+	817507446	WireCell	Environment			817507446
+	856927944	BoneSpire	Environment			856927944
+	1026216972	Weird	Environment			1026216972
+	1400550014	Toxic	Environment			1400550014
+	1668923154	Scorched	Environment			1668923154
+	1763750795	Frozen	Environment			1763750795
+	2044049779	Dead	Environment			2044049779
+	2907906111	Swamp	Environment			2907906111
+	3027923593	Contour	Environment			3027923593
+	3086965857	Shell	Environment			3086965857
+	3591408410	Shards	Environment			3591408410
+	748895195	None	VR			
+	2131190729	VR_No	VR			2131190729
+	3419505453	VR_Yes	VR			3419505453
+	498404561	AmbiCam	UI			498404561
+	743606050	Photomode	UI			743606050
+	748895195	None	UI			
+	780112199	Overlay	UI			780112199
+	1035353295	Bytebeat	UI			1035353295
+	1048449605	Map	UI			1048449605
+	2741915772	Ship_Build_Mode	UI			2741915772
+	2985101525	GameTable	UI			2985101525
+	4212191649	Frontend	UI			4212191649
+	232782671	Submarine	Vehicle_Type			232782671
+	748895195	None	Vehicle_Type			
+	1189297449	Hovercraft	Vehicle_Type			1189297449
+	1920759977	Pilgrim	Vehicle_Type			1920759977
+	2101268223	Rover	Vehicle_Type			2101268223
+	3028993147	DragonFly	Vehicle_Type			3028993147
+	3165045909	Buggy	Vehicle_Type			3165045909
+	92991041	Hyperspace_Yes	Hyperspace			92991041
+	748895195	None	Hyperspace			
+	3084611261	Hyperspace_No	Hyperspace			3084611261
+	748895195	None	Storm_Type			
+	787898836	Snow	Storm_Type			787898836
+	906520811	Grav	Storm_Type			906520811
+	2628937827	Regular	Storm_Type			2628937827
+	2678880713	Fire	Storm_Type			2678880713
+	4021625694	Humid	Storm_Type			4021625694
+	554650843	Spaceship	Vehicle			554650843
+	748895195	None	Vehicle			
+	1849406622	Spaceship_Interior	Vehicle			1849406622
+	2427673455	Land_Vehicle	Vehicle			2427673455
+	2468079403	Land_Vehicle_FirstPerson	Vehicle			2468079403
+	3880288599	NotInVehicle	Vehicle			3880288599
+	748895195	None	Camouflage			
+	930712164	Off	Camouflage			930712164
+	1651971902	On	Camouflage			1651971902
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	161555517	NPC_Ship_Freighters			\Default Work Unit\Master Audio Bus\SFX\NPC_Ship_Freighters	161555517
+	178530531	Planet_Building_Objects			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Planet_Building_Objects	178530531
+	218592586	Suit			\Default Work Unit\Master Audio Bus\Voice\Suit	218592586
+	219373002	Pl_Ship			\Default Work Unit\Master Audio Bus\SFX\Pl_Ship	219373002
+	277603565	Pl_Ship_Props			\Default Work Unit\Master Audio Bus\SFX\Pl_Ship_Props	277603565
+	356231183	Music_Expeditions			\Default Work Unit\Master Audio Bus\Music\Music_Expeditions	356231183
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	393239870
+	425131515	SpaceStation			\Default Work Unit\Master Audio Bus\SFX\SpaceStation	425131515
+	432870429	Music_GameTable			\Default Work Unit\Master Audio Bus\Music\Music_GameTable	432870429
+	461267446	Pl_Ship_Interface			\Default Work Unit\Master Audio Bus\SFX\Pl_Ship_Interface	461267446
+	573982288	Music_Pulse			\Default Work Unit\Master Audio Bus\Music\Music_Pulse	573982288
+	617461642	Health_Warning			\Default Work Unit\Master Audio Bus\SFX\Health_Warning	617461642
+	667890365	Pl_Vocalisations			\Default Work Unit\Master Audio Bus\SFX\Pl_Vocalisations	667890365
+	696369880	LFE			\Default Work Unit\Master Audio Bus\SFX\LFE	696369880
+	746444304	NPC_Weapons			\Default Work Unit\Master Audio Bus\SFX\NPC_Weapons	746444304
+	792533154	Initialisation			\Default Work Unit\Master Audio Bus\SFX\Initialisation	792533154
+	811021437	Building_Ambience_Exterior			\Default Work Unit\Master Audio Bus\SFX\Building_Ambience_Exterior	811021437
+	838240161	NPC_Ships_Engines_Space_Small			\Default Work Unit\Master Audio Bus\SFX\NPC_Ships_Engines_Space_Small	838240161
+	938609247	Music_Soundtrack			\Default Work Unit\Master Audio Bus\Music\Music_Soundtrack	938609247
+	957684365	NPC_Misc			\Default Work Unit\Master Audio Bus\SFX\NPC_Misc	957684365
+	987849416	NPC_Ship_Engines_Atmos			\Default Work Unit\Master Audio Bus\SFX\Outdoors\NPC_Ship_Engines_Atmos	987849416
+	1016488917	Crates			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Crates	1016488917
+	1035353295	ByteBeat			\Default Work Unit\Master Audio Bus\Music\ByteBeat	1035353295
+	1040160058	Music_GameTable_Stings			\Default Work Unit\Master Audio Bus\Music\Music_GameTable_Stings	1040160058
+	1048934623	NPC_Ships_Warp			\Default Work Unit\Master Audio Bus\SFX\NPC_Ships_Warp	1048934623
+	1111493515	Building_Ambience_Interior			\Default Work Unit\Master Audio Bus\SFX\Building_Ambience_Interior	1111493515
+	1317300247	Plants			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Plants	1317300247
+	1331923690	Player_Emotes			\Default Work Unit\Master Audio Bus\Voice\Player_Emotes	1331923690
+	1372863208	Physics_Impacts			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Physics_Impacts	1372863208
+	1376345963	Pl_Weapons			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Pl_Weapons	1376345963
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	1551306167
+	1579720873	Pl_Foley_Third_Person			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Pl_Foley_Third_Person	1579720873
+	1632173556	Building_Misc			\Default Work Unit\Master Audio Bus\SFX\Building_Misc	1632173556
+	1752637954	Objects_Misc			\Default Work Unit\Master Audio Bus\SFX\Objects_Misc	1752637954
+	1767056292	Pl_Ship_Cockpit			\Default Work Unit\Master Audio Bus\SFX\Pl_Ship_Cockpit	1767056292
+	1782264177	Music_Misc			\Default Work Unit\Master Audio Bus\Music\Music_Misc	1782264177
+	1837652465	VR_Foley			\Default Work Unit\Master Audio Bus\VR_Ambisonic-Binaural\VR_Foley	1837652465
+	2012559111	Motion			\Default Work Unit\Motion	2012559111
+	2111710928	Pl_Ship_Weapons			\Default Work Unit\Master Audio Bus\SFX\Pl_Ship_Weapons	2111710928
+	2213237662	Underwater			\Default Work Unit\Master Audio Bus\SFX\Underwater	2213237662
+	2378808112	Ambiences_SpaceWalk			\Default Work Unit\Master Audio Bus\SFX\Ambiences_SpaceWalk	2378808112
+	2415849402	Creature_Foley			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Creature_Foley	2415849402
+	2427673455	Land_Vehicle			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Land_Vehicle	2427673455
+	2494382374	Robots			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Robots	2494382374
+	2574227510	Pulse_Reverb_Bus_01			\Default Work Unit\Master Audio Bus\Music\Music_Pulse\Pulse_Reverb_Bus_01	2574227510
+	2585093610	NPC_Foley			\Default Work Unit\Master Audio Bus\SFX\NPC_Foley	2585093610
+	2623542428	Pl_Misc			\Default Work Unit\Master Audio Bus\SFX\Pl_Misc	2623542428
+	2648724154	Comms_Chatter			\Default Work Unit\Master Audio Bus\SFX\Comms_Chatter	2648724154
+	2730119150	Outdoors			\Default Work Unit\Master Audio Bus\SFX\Outdoors	2730119150
+	2792539788	Crashed_Freighter			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Crashed_Freighter	2792539788
+	2863641322	Planet_Objects			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Planet_Objects	2863641322
+	2985101525	GameTable			\Default Work Unit\Master Audio Bus\SFX\GameTable	2985101525
+	2985295303	Ambiences_Space			\Default Work Unit\Master Audio Bus\SFX\Ambiences_Space	2985295303
+	3014494721	Ambiences_SpaceStation			\Default Work Unit\Master Audio Bus\SFX\Ambiences_SpaceStation	3014494721
+	3026706959	Pl_Ship_Weapons_Sub			\Default Work Unit\Master Audio Bus\SFX\Pl_Ship_Weapons\Pl_Ship_Weapons_Sub	3026706959
+	3036395753	Pl_Foley			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Pl_Foley	3036395753
+	3041924855	NPC_Ships_One-Shots			\Default Work Unit\Master Audio Bus\SFX\NPC_Ships_One-Shots	3041924855
+	3063321545	Robot_Chatter			\Default Work Unit\Master Audio Bus\SFX\Robot_Chatter	3063321545
+	3149460370	Pl_Ship_Boost			\Default Work Unit\Master Audio Bus\SFX\Pl_Ship_Boost	3149460370
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	3170124113
+	3234713953	Ambiences_Planet			\Default Work Unit\Master Audio Bus\SFX\Ambiences_Planet	3234713953
+	3256021640	Ambiences_Cave			\Default Work Unit\Master Audio Bus\SFX\Ambiences_Cave	3256021640
+	3306365556	Pulse_Master_Bus_01			\Default Work Unit\Master Audio Bus\Music\Music_Pulse\Pulse_Master_Bus_01	3306365556
+	3495197791	Music_Stings_New_Star			\Default Work Unit\Master Audio Bus\Music\Music_Stings_New_Star	3495197791
+	3577798351	NPC_Speech			\Default Work Unit\Master Audio Bus\SFX\NPC_Speech	3577798351
+	3582478184	Creature_VocAlien_Bg_Fauna			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Creature_VocAlien_Bg_Fauna	3582478184
+	3628531426	Explosions_Space			\Default Work Unit\Master Audio Bus\SFX\Explosions_Space	3628531426
+	3638323072	UI_Map_Verb			\Default Work Unit\Master Audio Bus\SFX\UI_Map_Verb	3638323072
+	3657448350	VR_Ambisonic-Binaural			\Default Work Unit\Master Audio Bus\VR_Ambisonic-Binaural	3657448350
+	3682843679	Map_Star_Woosh_Verb			\Default Work Unit\Master Audio Bus\SFX\Map_Star_Woosh_Verb	3682843679
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	3803692087
+	3935235744	Creature_VocAlien			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Creature_VocAlien	3935235744
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	3991942870
+	4022786467	Music_Stings			\Default Work Unit\Master Audio Bus\Music\Music_Stings	4022786467
+	4041403990	Explosions_Atmos			\Default Work Unit\Master Audio Bus\SFX\Outdoors\Explosions_Atmos	4041403990
+	4103209199	UI_Special			\Default Work Unit\Master Audio Bus\SFX\UI_Special	4103209199
+	4140304027	Chat			\Default Work Unit\Master Audio Bus\Chat	4140304027
+	4145651971	Music_Loading			\Default Work Unit\Master Audio Bus\Music\Music_Loading	4145651971
+	4237228334	NPC_Ships_Engines			\Default Work Unit\Master Audio Bus\SFX\NPC_Ships_Engines	4237228334
+	4267144225	Camouflage			\Default Work Unit\Master Audio Bus\SFX\Camouflage	4267144225
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	27062696	FX_Warp			\Default Work Unit\Master Audio Bus\SFX\FX_Warp	27062696
+	179676517	FX_Rumble			\Default Work Unit\Master Audio Bus\SFX\FX_Rumble	179676517
+	647100049	FX_ConvVerb_Cave			\Default Work Unit\Master Audio Bus\SFX\FX_ConvVerb_Cave	647100049
+	838772326	FX_Verb_Freighter_Hangar			\Default Work Unit\Master Audio Bus\SFX\FX_Verb_Freighter_Hangar	838772326
+	1174092945	FX_Indoor_Verb			\Default Work Unit\Master Audio Bus\SFX\FX_Indoor_Verb	1174092945
+	1295412559	FX_Ship_Interior			\Default Work Unit\Master Audio Bus\SFX\FX_Ship_Interior	1295412559
+	1872922611	FX_Verb_Cockpit			\Default Work Unit\Master Audio Bus\SFX\FX_Verb_Cockpit	1872922611
+	2028701680	Motion_Bus			\Default Work Unit\Motion\Motion_Bus	2028701680
+	2344778331	FX_ByteBeatVerb			\Default Work Unit\Master Audio Bus\SFX\FX_ByteBeatVerb	2344778331
+	3393754945	FX_Underwater			\Default Work Unit\Master Audio Bus\SFX\FX_Underwater	3393754945
+	3759252706	FX_Camoflauge			\Default Work Unit\Master Audio Bus\SFX\FX_Camoflauge	3759252706
+	4026571717	FX_ConvVerb_Outdoors			\Default Work Unit\Master Audio Bus\SFX\FX_ConvVerb_Outdoors	4026571717
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			2317455096
+	2990085488	PS5_Vibration	Auxiliary			2990085488
+	3859886410	System	System			3859886410
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DE1E0C49-B888-421F-93C5-19940B1BD65F}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{DE1E0C49-B888-421F-93C5-19940B1BD65F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Generic" ID="{159208F9-D552-4130-A871-EFEECD91896D}" ShortID="676732445">
+					<ChildrenList>
+						<GameParameter Name="Master_SFX_Level" ID="{576497CD-21EE-4338-B2C8-B0F3B598F4B9}">
+							<Comment>3385062136</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Master_Music_Level" ID="{7AA3803A-866E-429C-BDD7-0516BB3704A1}">
+							<Comment>4176915636</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Master_Voice_Level" ID="{D82FF7FB-12AF-4D93-9E6E-9B9FDF0EB134}">
+							<Comment>3702934039</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Master_Chat_Level" ID="{4DDC81F4-8C4C-4983-8D3B-3046F4E867F4}">
+							<Comment>1536050791</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Misc" ID="{5DD37928-135A-48E9-A82A-1191A9500171}" ShortID="224220778">
+					<ChildrenList>
+						<GameParameter Name="SuitVoice_RMS" ID="{A6C9F1B5-4FD7-46F0-B4E9-C3F2B46CDF04}">
+							<Comment>142884387</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="MUS_TruckingAlong_Main" ID="{E4A80947-49AD-42AC-9FCA-7BD8D0C205CD}">
+							<Comment>928219311</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Planet_Time" ID="{A065855E-ECDE-4872-ABC6-4691E0A513B4}">
+							<Comment>1275284849</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="MUS_Fishing" ID="{5899DCB6-C4F4-4BEB-9248-8F7AEE411795}">
+							<Comment>1771682885</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="ByteBeat_RMS" ID="{9755BDDD-3611-414F-A6E6-BE37EDC6FE82}">
+							<Comment>2736086896</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Global" ID="{879B4C21-9EEB-486A-A0F4-8647753646FE}" ShortID="72157372">
+					<ChildrenList>
+						<GameParameter Name="Global_Health_Level" ID="{2BFBB822-68DE-4A39-B8D6-B9E549A16607}">
+							<Comment>711000894</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Pulse" ID="{31884FE5-3A9E-48A3-83B8-F8F5E247776E}" ShortID="960834024">
+					<ChildrenList>
+						<GameParameter Name="Pulse_Bus01_Master_Volume" ID="{9AD74E58-A42C-4B40-BBF0-A9FEB8D6778D}">
+							<Comment>1122126612</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{50F3681C-11B9-4CC3-B7F5-43D94E9E615F}" ShortID="408127780">
+					<ChildrenList>
+						<GameParameter Name="Pl_Cave_Enclosed" ID="{D63B005E-498C-4273-875A-C7FB6818C7AE}">
+							<Comment>2571588979</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pl_Underwater_Depth" ID="{F7127CDA-BAC8-4AB3-A1A2-F860DA783F1A}">
+							<Comment>1925728869</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

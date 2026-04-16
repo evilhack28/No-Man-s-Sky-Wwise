@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{61E490D7-A660-43D7-8550-FC0B2B3E9DE1}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{61E490D7-A660-43D7-8550-FC0B2B3E9DE1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MUS_Loading" ID="{4C059D28-6426-45A2-84A3-1E30795A4CD1}" ShortID="226247728">
+					<ChildrenList>
+						<Event Name="MUS_Loading01" ID="{0627C8C3-3584-46CD-A503-41456D5DA93A}">
+							<ChildrenList>
+								<Action Name="" ID="{7B7518F3-A1F5-4891-9FD4-0DAA7D12EAAB}" ShortID="1058010912">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Loading01" ID="{A2873FD7-81B7-46C5-9F72-623B75409EE1}" WorkUnitID="{4056254B-F7C4-40B4-93CA-DD86FA2A56F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

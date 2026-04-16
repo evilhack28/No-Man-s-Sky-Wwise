@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{239AF30E-8726-42AD-8843-1B2C2DE3556A}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{239AF30E-8726-42AD-8843-1B2C2DE3556A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<Comment>3803692087</Comment>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{2DF519F6-09F6-45A5-8D6C-BB598E4FFF72}" WorkUnitID="{31B35006-1343-4CE4-917E-83B132BC97D1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{DFF744D6-1BED-4736-99FF-DA8FEC3F6278}">
+							<Comment>3991942870</Comment>
+							<ChildrenList>
+								<Bus Name="Music_Stings" ID="{E0692FCA-5855-4241-92AB-22D223D63D94}">
+									<Comment>4022786467</Comment>
+								</Bus>
+								<Bus Name="Music_Loading" ID="{E342AA44-D35B-4A5F-B312-53E85A9FD67A}">
+									<Comment>4145651971</Comment>
+								</Bus>
+								<Bus Name="Music_Expeditions" ID="{4EDFEFA4-E496-440D-B3D1-F947EFFB918A}">
+									<Comment>356231183</Comment>
+								</Bus>
+								<Bus Name="Music_GameTable" ID="{55833BAA-C38D-4250-9607-D369447ECE96}">
+									<Comment>432870429</Comment>
+								</Bus>
+								<Bus Name="Music_Pulse" ID="{B6BE6857-D1F0-4EE4-961C-209043D059FC}">
+									<Comment>573982288</Comment>
+									<ChildrenList>
+										<Bus Name="Pulse_Reverb_Bus_01" ID="{00ED988E-0BBD-4459-8F85-B086F4AB750A}">
+											<Comment>2574227510</Comment>
+										</Bus>
+										<Bus Name="Pulse_Master_Bus_01" ID="{09D1FFB9-452C-4EC1-81C6-3BBA0FD6BD2F}">
+											<Comment>3306365556</Comment>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Music_Soundtrack" ID="{437BDC14-2B40-484A-B556-F753DBF85CFC}">
+									<Comment>938609247</Comment>
+								</Bus>
+								<Bus Name="ByteBeat" ID="{D8B5D16B-7174-4B98-A9A8-7AF4E366851E}">
+									<Comment>1035353295</Comment>
+								</Bus>
+								<Bus Name="Music_GameTable_Stings" ID="{98FFFC08-5C47-40C3-A4F1-E0AB8250C789}">
+									<Comment>1040160058</Comment>
+								</Bus>
+								<Bus Name="Music_Misc" ID="{C60C50D6-2D46-4F33-89B7-32C2CC470999}">
+									<Comment>1782264177</Comment>
+								</Bus>
+								<Bus Name="Music_Stings_New_Star" ID="{431AA004-41E3-45C6-8E70-499F9A3C5E4C}">
+									<Comment>3495197791</Comment>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Chat" ID="{6B02680D-002E-450D-B772-C5C29CCC741E}">
+							<Comment>4140304027</Comment>
+						</Bus>
+						<Bus Name="SFX" ID="{20960CF2-2464-49A0-A3E2-FC99F1B49601}">
+							<Comment>393239870</Comment>
+							<ChildrenList>
+								<Bus Name="NPC_Ship_Freighters" ID="{83D31D9B-D94A-4F0F-B208-A84EDE5D9CE1}">
+									<Comment>161555517</Comment>
+								</Bus>
+								<Bus Name="Outdoors" ID="{BDEF509C-3340-4F52-A443-BE33EB302B73}">
+									<Comment>2730119150</Comment>
+									<ChildrenList>
+										<Bus Name="Planet_Building_Objects" ID="{1A7D970C-4C83-4FD0-96D7-EAD19D8D97A8}">
+											<Comment>178530531</Comment>
+										</Bus>
+										<Bus Name="NPC_Ship_Engines_Atmos" ID="{486C1274-440C-48DC-BF84-483AB42BE0B3}">
+											<Comment>987849416</Comment>
+										</Bus>
+										<Bus Name="Crates" ID="{CD1A2AF9-6A65-4A66-B158-59A9326A2986}">
+											<Comment>1016488917</Comment>
+										</Bus>
+										<Bus Name="Plants" ID="{76CE117D-49B2-4CA8-B747-5A270549E2DD}">
+											<Comment>1317300247</Comment>
+										</Bus>
+										<Bus Name="Physics_Impacts" ID="{AF4B9F6F-1080-4557-9B92-F2992FADE852}">
+											<Comment>1372863208</Comment>
+										</Bus>
+										<Bus Name="Pl_Weapons" ID="{FAB957CA-C12B-4013-9949-48289549B545}">
+											<Comment>1376345963</Comment>
+										</Bus>
+										<Bus Name="Pl_Foley_Third_Person" ID="{9787701A-AB5E-41F3-8043-83192F17AA44}">
+											<Comment>1579720873</Comment>
+										</Bus>
+										<Bus Name="Creature_Foley" ID="{1FD2D25A-0267-4691-ADBD-30C40B3F76D3}">
+											<Comment>2415849402</Comment>
+										</Bus>
+										<Bus Name="Land_Vehicle" ID="{79D40F87-BA45-4100-97AB-3BA4C44FD42F}">
+											<Comment>2427673455</Comment>
+										</Bus>
+										<Bus Name="Robots" ID="{BD3052E2-7CD5-4694-94D7-7237D4027175}">
+											<Comment>2494382374</Comment>
+										</Bus>
+										<Bus Name="Crashed_Freighter" ID="{54A40CCD-C723-4AF1-B758-A6B0C402B927}">
+											<Comment>2792539788</Comment>
+										</Bus>
+										<Bus Name="Planet_Objects" ID="{33852CF9-2A54-4639-BAA7-17A3020B6BED}">
+											<Comment>2863641322</Comment>
+										</Bus>
+										<Bus Name="Pl_Foley" ID="{436F630F-B5BC-4BAF-9A63-DB488C2E846F}">
+											<Comment>3036395753</Comment>
+										</Bus>
+										<Bus Name="Creature_VocAlien_Bg_Fauna" ID="{8817E273-7DA2-471D-9F75-DDEAABC0F849}">
+											<Comment>3582478184</Comment>
+										</Bus>
+										<Bus Name="Creature_VocAlien" ID="{D9F3DDD5-28E3-4976-BD48-4232B470131C}">
+											<Comment>3935235744</Comment>
+										</Bus>
+										<Bus Name="Explosions_Atmos" ID="{32921F4E-9D4C-460E-BA68-39ED7B0F7C7D}">
+											<Comment>4041403990</Comment>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Pl_Ship" ID="{DE08A0CC-9994-4F5E-A223-9F69C846C520}">
+									<Comment>219373002</Comment>
+								</Bus>
+								<Bus Name="Pl_Ship_Props" ID="{463DD6CD-E062-4C29-BCDE-A56C0569274B}">
+									<Comment>277603565</Comment>
+								</Bus>
+								<Bus Name="SpaceStation" ID="{4C482178-2F53-4681-BB20-8E207A1BD80D}">
+									<Comment>425131515</Comment>
+								</Bus>
+								<Bus Name="Pl_Ship_Interface" ID="{3C0663F4-98B6-4C27-AC6B-68D38955150B}">
+									<Comment>461267446</Comment>
+								</Bus>
+								<Bus Name="Health_Warning" ID="{675140A6-9B76-4384-AAAC-BE078172B66D}">
+									<Comment>617461642</Comment>
+								</Bus>
+								<Bus Name="Pl_Vocalisations" ID="{E7771A78-4E92-456F-BDC7-A3786A70DDC8}">
+									<Comment>667890365</Comment>
+								</Bus>
+								<Bus Name="LFE" ID="{E4F2D1DD-E9C6-4C16-8917-C7CBD985CEEB}">
+									<Comment>696369880</Comment>
+								</Bus>
+								<Bus Name="NPC_Weapons" ID="{57B393CE-4FC7-4468-92D6-625D1FB01A7A}">
+									<Comment>746444304</Comment>
+								</Bus>
+								<Bus Name="Initialisation" ID="{C4968BA9-B533-47F9-801D-46D7CEE70B2D}">
+									<Comment>792533154</Comment>
+								</Bus>
+								<Bus Name="Building_Ambience_Exterior" ID="{84100ED3-34F8-408A-AA01-9D1A46690DAE}">
+									<Comment>811021437</Comment>
+								</Bus>
+								<Bus Name="NPC_Ships_Engines_Space_Small" ID="{770DF09C-8504-4C1C-A6F4-EE7FC8D8787A}">
+									<Comment>838240161</Comment>
+								</Bus>
+								<Bus Name="NPC_Misc" ID="{6CDCCA1E-F03D-4B94-AB1D-A92C366EB1DA}">
+									<Comment>957684365</Comment>
+								</Bus>
+								<Bus Name="NPC_Ships_Warp" ID="{9323A698-7E58-4C31-8020-599DBE961B54}">
+									<Comment>1048934623</Comment>
+								</Bus>
+								<Bus Name="Building_Ambience_Interior" ID="{6D349EF0-4661-4409-BBCE-6919FA820A5A}">
+									<Comment>1111493515</Comment>
+								</Bus>
+								<Bus Name="UI" ID="{298CC333-2CB9-4F6F-BB92-6990AC6A8505}">
+									<Comment>1551306167</Comment>
+								</Bus>
+								<Bus Name="Building_Misc" ID="{1EC43BF6-2F79-4E7C-A002-816CE3B95741}">
+									<Comment>1632173556</Comment>
+								</Bus>
+								<Bus Name="Objects_Misc" ID="{5FE29437-29DA-4048-A019-6FC966BB0336}">
+									<Comment>1752637954</Comment>
+								</Bus>
+								<Bus Name="Pl_Ship_Cockpit" ID="{C528594F-F823-41DA-AFD2-EF8D9770340E}">
+									<Comment>1767056292</Comment>
+								</Bus>
+								<Bus Name="Pl_Ship_Weapons" ID="{429D075C-E3F4-4A6C-8838-AEDEC5082F16}">
+									<Comment>2111710928</Comment>
+									<ChildrenList>
+										<Bus Name="Pl_Ship_Weapons_Sub" ID="{CBF3B9AB-D1F8-4721-8428-5FA9CD82AC33}">
+											<Comment>3026706959</Comment>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Underwater" ID="{2C7B9293-5109-434F-B2CE-0B90EC5E830E}">
+									<Comment>2213237662</Comment>
+								</Bus>
+								<Bus Name="Ambiences_SpaceWalk" ID="{2A31129C-E722-4894-8574-A17BF7180BD3}">
+									<Comment>2378808112</Comment>
+								</Bus>
+								<Bus Name="NPC_Foley" ID="{8C825501-0398-4ED4-8F38-6668926920A3}">
+									<Comment>2585093610</Comment>
+								</Bus>
+								<Bus Name="Pl_Misc" ID="{DDD0CF9F-CB1C-40F3-B4B3-F10B426DE1DB}">
+									<Comment>2623542428</Comment>
+								</Bus>
+								<Bus Name="Comms_Chatter" ID="{3FEFF4A9-0AE4-406C-A3E4-3AD28582A114}">
+									<Comment>2648724154</Comment>
+								</Bus>
+								<Bus Name="GameTable" ID="{AD8AC84E-22C3-4196-B490-55248DF58BB2}">
+									<Comment>2985101525</Comment>
+								</Bus>
+								<Bus Name="Ambiences_Space" ID="{36352159-B066-4F6B-B32B-1D631D1A2026}">
+									<Comment>2985295303</Comment>
+								</Bus>
+								<Bus Name="Ambiences_SpaceStation" ID="{2AF82379-776F-4DA7-927B-CCEEBEAB1FBC}">
+									<Comment>3014494721</Comment>
+								</Bus>
+								<AuxBus Name="FX_Warp" ID="{7C227C88-9F86-4EC2-BF28-8393E1B7E57C}">
+									<Comment>27062696</Comment>
+								</AuxBus>
+								<Bus Name="NPC_Ships_One-Shots" ID="{30F89282-85AB-4E37-B8EA-B72CC294D49F}">
+									<Comment>3041924855</Comment>
+								</Bus>
+								<Bus Name="Robot_Chatter" ID="{945A2EE8-6E93-4C45-8DF6-470E794EE502}">
+									<Comment>3063321545</Comment>
+								</Bus>
+								<Bus Name="Pl_Ship_Boost" ID="{653372A2-547F-4BE6-888A-918A44D0ABB3}">
+									<Comment>3149460370</Comment>
+								</Bus>
+								<Bus Name="Ambiences_Planet" ID="{EA74A1F5-0783-47EF-9247-AB68CDB6BD4E}">
+									<Comment>3234713953</Comment>
+								</Bus>
+								<Bus Name="Ambiences_Cave" ID="{12A237F8-8312-4A30-8723-B5CF843C4367}">
+									<Comment>3256021640</Comment>
+								</Bus>
+								<Bus Name="NPC_Speech" ID="{4603C1FA-A774-4404-81E3-BDDBEECD42FF}">
+									<Comment>3577798351</Comment>
+								</Bus>
+								<Bus Name="Explosions_Space" ID="{8BCACC0E-B22E-4ED0-81EC-DBE83C67B4C3}">
+									<Comment>3628531426</Comment>
+								</Bus>
+								<Bus Name="UI_Map_Verb" ID="{B48C6F6D-243D-448A-A196-4713996AFBB2}">
+									<Comment>3638323072</Comment>
+								</Bus>
+								<Bus Name="Map_Star_Woosh_Verb" ID="{EBC7BAE0-949B-4E85-A1DB-40DE124A43DC}">
+									<Comment>3682843679</Comment>
+								</Bus>
+								<Bus Name="UI_Special" ID="{A63829D8-E2AF-4B2E-9319-22BECDD1772C}">
+									<Comment>4103209199</Comment>
+								</Bus>
+								<Bus Name="NPC_Ships_Engines" ID="{2824EC26-6FE8-4034-BB36-190D1E81E195}">
+									<Comment>4237228334</Comment>
+								</Bus>
+								<Bus Name="Camouflage" ID="{ACAD7650-0542-45B7-91E5-4117686C33FD}">
+									<Comment>4267144225</Comment>
+								</Bus>
+								<AuxBus Name="FX_Rumble" ID="{1272DAB7-929E-4D71-8714-8BE45CDDC755}">
+									<Comment>179676517</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_ByteBeatVerb" ID="{388A5D89-CF13-45F7-BC46-0D252805C62B}">
+									<Comment>2344778331</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_Camoflauge" ID="{9A17CC5D-D24F-4609-BABE-D67B1724A64F}">
+									<Comment>3759252706</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_ConvVerb_Cave" ID="{A7CF0B0C-3745-4041-98F8-2EE028401EEC}">
+									<Comment>647100049</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_Indoor_Verb" ID="{3FDCCED1-5224-42F3-A315-0AA10371C4A4}">
+									<Comment>1174092945</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_Ship_Interior" ID="{1B24E461-8A6F-4BF7-A36B-1A1D4C92D8FB}">
+									<Comment>1295412559</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_Underwater" ID="{1798907D-125F-495A-8E92-2F2421CA2917}">
+									<Comment>3393754945</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_Verb_Cockpit" ID="{E4EBEE01-4F9D-438B-AA6F-57A7216A84DE}">
+									<Comment>1872922611</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_Verb_Freighter_Hangar" ID="{20FFABB2-E6B6-4793-A056-1031788269FF}">
+									<Comment>838772326</Comment>
+								</AuxBus>
+								<AuxBus Name="FX_ConvVerb_Outdoors" ID="{2E11C9BA-777F-4B41-8F88-1FEE545F40F0}">
+									<Comment>4026571717</Comment>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Voice" ID="{C18B35A2-F538-4ABE-9B82-A1DDE99D0CE5}">
+							<Comment>3170124113</Comment>
+							<ChildrenList>
+								<Bus Name="Suit" ID="{A50E8B3A-3421-45AD-AEC6-9B0497BFAC30}">
+									<Comment>218592586</Comment>
+								</Bus>
+								<Bus Name="Player_Emotes" ID="{9FAF14A2-C96E-4786-9971-A9A14872E875}">
+									<Comment>1331923690</Comment>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VR_Ambisonic-Binaural" ID="{37E5CC24-33E0-4991-A115-13831AE34897}">
+							<Comment>3657448350</Comment>
+							<ChildrenList>
+								<Bus Name="VR_Foley" ID="{E0C4FB21-16E7-41BB-B81A-22119ED4617C}">
+									<Comment>1837652465</Comment>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Motion" ID="{1EAFDDA8-0DF5-4C74-89C3-CDDF2C353B8A}">
+					<Comment>2012559111</Comment>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{2DF519F6-09F6-45A5-8D6C-BB598E4FFF72}" WorkUnitID="{31B35006-1343-4CE4-917E-83B132BC97D1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Motion_Bus" ID="{29698BD6-F563-4036-A69A-4F7DD8DF7A1C}">
+							<Comment>2028701680</Comment>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

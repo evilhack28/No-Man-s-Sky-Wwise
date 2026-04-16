@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1487083614	MUS_Loading01			\Default Work Unit\MUS_Loading\MUS_Loading01	
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{31B35006-1343-4CE4-917E-83B132BC97D1}" SchemaVersion="123">
+	<AudioDevices>
+		<WorkUnit Name="Default Work Unit" ID="{31B35006-1343-4CE4-917E-83B132BC97D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<AudioDevice Name="System" ID="{2DF519F6-09F6-45A5-8D6C-BB598E4FFF72}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+					<Comment>3859886410</Comment>
+				</AudioDevice>
+				<AudioDevice Name="No_Output" ID="{38C6C376-B753-4068-AD0E-2201961D5BA9}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7">
+					<Comment>2317455096</Comment>
+				</AudioDevice>
+				<AudioDevice Name="PS5_Vibration" ID="{E3CDFAF0-3F12-4AC0-98AC-8049002944BA}" PluginName="Auxiliary" CompanyID="0" PluginID="180" PluginType="7">
+					<Comment>2990085488</Comment>
+				</AudioDevice>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioDevices>
+</WwiseDocument>

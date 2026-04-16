@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E710DBA-5A0A-4481-ACA5-A4146A221318}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{1E710DBA-5A0A-4481-ACA5-A4146A221318}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Gameplay" ID="{FF315897-D44F-44AE-8834-CF21DCA28616}">
+					<Comment>89505537</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{6C73138E-8A42-426A-BCAF-FC571E594DD9}"/>
+						<State Name="Default" ID="{F880938F-6D62-4C5A-843C-76092397A67B}">
+							<Comment>782826392</Comment>
+						</State>
+						<State Name="Navigation" ID="{D26E14BC-CB68-4A41-B446-D0C6ECEE6EE2}">
+							<Comment>1082482811</Comment>
+						</State>
+						<State Name="Exploration" ID="{746CB53D-38F4-4AF1-969F-1115343D6329}">
+							<Comment>2582085496</Comment>
+						</State>
+						<State Name="Combat" ID="{314C1239-F022-4D68-9BA8-FE4DFA5EF594}">
+							<Comment>2764240573</Comment>
+						</State>
+						<State Name="Scanning" ID="{0F7E9352-721B-43BD-B52F-65A1D0B7F9E5}">
+							<Comment>2883831984</Comment>
+						</State>
+						<State Name="Fishing" ID="{8829B69A-8210-4530-9640-631D64DADDCA}">
+							<Comment>3188984297</Comment>
+						</State>
+						<State Name="Health_Low" ID="{D89C9FF3-51FE-4B10-8F31-725A981E47F7}">
+							<Comment>3742857336</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Camera" ID="{1A553655-E5CC-47D5-AFF9-DDF1C7307214}">
+					<Comment>306800208</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{5BACBFDA-9829-4675-9B09-4295940BBEDD}"/>
+						<State Name="Default" ID="{C0EEF98F-6054-4CDC-8B03-472669669FE7}">
+							<Comment>782826392</Comment>
+						</State>
+						<State Name="Third_Person" ID="{BB8F88CF-9924-481F-8EAD-7B2AF02D4029}">
+							<Comment>2761730720</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="IsDead" ID="{A80709C4-34BE-4A28-B1CF-F78FB3904925}">
+					<Comment>712354551</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{01268097-36C9-4AD4-B655-06073550A6AE}"/>
+						<State Name="IsDead_No" ID="{2463DBAD-32FA-4BE2-970D-633781C53FA8}">
+							<Comment>305400479</Comment>
+						</State>
+						<State Name="IsDead_Yes" ID="{08F65E8C-E846-4DFF-8E5B-2F8200DE4E9A}">
+							<Comment>483831699</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Suit_Gender" ID="{47DFF737-01F4-45D0-9DFA-2F759DFB9FFF}">
+					<Comment>1030152494</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{5938E71F-C60D-4A69-B45B-DBAB00BD9A48}"/>
+						<State Name="Off" ID="{81976534-DC0E-4650-87C8-2D2795568C4E}">
+							<Comment>930712164</Comment>
+						</State>
+						<State Name="Female" ID="{4FC09A79-EDC3-4219-B2B7-79CE7F966D73}">
+							<Comment>2204441813</Comment>
+						</State>
+						<State Name="Male" ID="{87948C80-05B2-4765-A1D1-E0A1A1996990}">
+							<Comment>3111576190</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Location" ID="{AF64CDA8-0C5B-4735-8900-8C5DCAEB66A5}">
+					<Comment>1176052424</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{C4F0008A-D404-4CC0-94BF-689E60DDF641}"/>
+						<State Name="SpaceStation" ID="{F3BC1088-A0DA-414D-96CC-A94855DB8D2F}">
+							<Comment>425131515</Comment>
+						</State>
+						<State Name="Freighter" ID="{4F3849C7-C894-4F51-96D2-AA68161C1DE7}">
+							<Comment>1038648139</Comment>
+						</State>
+						<State Name="SpaceStation_Abandoned" ID="{51954114-BD26-46CA-BA88-0E4B9A9C1CFA}">
+							<Comment>1067307294</Comment>
+						</State>
+						<State Name="SpaceStation_Anomaly" ID="{7DF6D6A6-2309-4072-AADE-4E7C10DB87BB}">
+							<Comment>1412533597</Comment>
+						</State>
+						<State Name="Surface" ID="{CBA3DC06-8715-4109-B6B7-A452739D77CE}">
+							<Comment>1834394558</Comment>
+						</State>
+						<State Name="Ship_Interior" ID="{B21FEE0D-06D6-4CEB-B41E-800836819661}">
+							<Comment>1894431114</Comment>
+						</State>
+						<State Name="Atmosphere" ID="{F5315219-F3A2-48B1-B2FD-77F434FA1105}">
+							<Comment>2145253833</Comment>
+						</State>
+						<State Name="Base_Building" ID="{E0EC6385-AC01-4AE1-8659-620999B91386}">
+							<Comment>2170850785</Comment>
+						</State>
+						<State Name="Nexus" ID="{DDB9FB32-AF74-4230-AEF1-F5A3D623EAC1}">
+							<Comment>2188131170</Comment>
+						</State>
+						<State Name="Underwater" ID="{4BABA41C-E2D2-479E-9074-7FCC29FF7AD5}">
+							<Comment>2213237662</Comment>
+						</State>
+						<State Name="SpaceStation_Atlas" ID="{4D71EE14-9296-4B3A-9436-1B2D8956AF98}">
+							<Comment>2646434139</Comment>
+						</State>
+						<State Name="Building" ID="{00B3CD40-66EF-43B7-9FDD-9D2EF59BC299}">
+							<Comment>3339761385</Comment>
+						</State>
+						<State Name="Spacewalk" ID="{6542C703-33F4-4CBB-8B78-0BBD571CF7F4}">
+							<Comment>3741205522</Comment>
+						</State>
+						<State Name="SpaceStation_Pirate" ID="{A4D05572-EDF8-456D-93DA-1CC0C2A3DFE3}">
+							<Comment>4005760589</Comment>
+						</State>
+						<State Name="Cave" ID="{74CA3DB4-335A-4D0C-B685-F9BFA3E9A0ED}">
+							<Comment>4122393694</Comment>
+						</State>
+						<State Name="Space" ID="{97E0DF02-A5CB-4213-9E03-420D49715FB6}">
+							<Comment>4164838345</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Environment" ID="{9B29C6E0-6440-409B-B407-C1DB841EFA10}">
+					<Comment>1229948536</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{381E5B60-18FE-4EE9-8B66-641C53AF0778}"/>
+						<State Name="Lush" ID="{49AECE43-35C6-409C-BF1F-1AC01E8A63BD}">
+							<Comment>358999213</Comment>
+						</State>
+						<State Name="Barren" ID="{B0CB6904-5C09-44A6-BB4E-95EBA29F9872}">
+							<Comment>442447911</Comment>
+						</State>
+						<State Name="Lava" ID="{54FC2422-1ADA-4DE6-B9E5-D3D26004571E}">
+							<Comment>540301611</Comment>
+						</State>
+						<State Name="HydroGarden" ID="{CEA443D0-D0AB-4697-952F-7CF237D82F8D}">
+							<Comment>540648442</Comment>
+						</State>
+						<State Name="Radioactive" ID="{85E9ACE0-CD6E-40BD-9E3A-E6661E3AD05D}">
+							<Comment>542966132</Comment>
+						</State>
+						<State Name="Gas" ID="{068B7BF4-1F6C-44F2-8382-1B9E2D5D622F}">
+							<Comment>579662040</Comment>
+						</State>
+						<State Name="WireCell" ID="{E893C5E2-7AEE-4E88-9CDD-7728DE3987D7}">
+							<Comment>817507446</Comment>
+						</State>
+						<State Name="BoneSpire" ID="{1A050EBE-50D7-45BD-A9E5-E71CCC640FD2}">
+							<Comment>856927944</Comment>
+						</State>
+						<State Name="Weird" ID="{7840B928-B1C8-45E9-9EC7-50BE52B935A1}">
+							<Comment>1026216972</Comment>
+						</State>
+						<State Name="Toxic" ID="{3F7B7017-7EEA-4669-B5EE-CE12E33180D1}">
+							<Comment>1400550014</Comment>
+						</State>
+						<State Name="Scorched" ID="{E8815434-CB37-4406-918B-0D92B85639DA}">
+							<Comment>1668923154</Comment>
+						</State>
+						<State Name="Frozen" ID="{BF8FDF12-6236-44A8-8079-EAB57BBC12E8}">
+							<Comment>1763750795</Comment>
+						</State>
+						<State Name="Dead" ID="{3E033BBD-3172-4F73-8279-AB2F4A7BCB8D}">
+							<Comment>2044049779</Comment>
+						</State>
+						<State Name="Swamp" ID="{0437A94E-5D04-4F38-8CB6-F6C33F19D018}">
+							<Comment>2907906111</Comment>
+						</State>
+						<State Name="Contour" ID="{EEB5CA8C-EA48-4602-8F54-06135EB9BFC5}">
+							<Comment>3027923593</Comment>
+						</State>
+						<State Name="Shell" ID="{472D0AEA-F940-41A4-89CC-D11C173D4CB6}">
+							<Comment>3086965857</Comment>
+						</State>
+						<State Name="Shards" ID="{1397B12A-81DA-4307-8681-B9EDDC002723}">
+							<Comment>3591408410</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="VR" ID="{F18A0D84-31CD-4751-83FC-EC14552C5F7E}">
+					<Comment>1534528569</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{134C502B-3F2C-4D44-A59A-4E74B6DDCA3A}"/>
+						<State Name="VR_No" ID="{4C07EDD8-AB8A-4133-B1BC-359A7265145F}">
+							<Comment>2131190729</Comment>
+						</State>
+						<State Name="VR_Yes" ID="{677E85AE-88DF-402E-9A0D-2D25F179A02B}">
+							<Comment>3419505453</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="UI" ID="{D6DDD0E5-920E-45FB-968C-34947833F8D2}">
+					<Comment>1551306167</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{4FF79EAD-F1D4-4F5B-8CCB-E9EC5A43D35E}"/>
+						<State Name="AmbiCam" ID="{25F8E3C2-A85E-4E75-9ED6-4ED44CCCE7D9}">
+							<Comment>498404561</Comment>
+						</State>
+						<State Name="Photomode" ID="{1610D16A-EC13-4103-8E89-EFA56F39769C}">
+							<Comment>743606050</Comment>
+						</State>
+						<State Name="Overlay" ID="{942CCB65-7EA4-474F-B87A-E9C122043765}">
+							<Comment>780112199</Comment>
+						</State>
+						<State Name="Bytebeat" ID="{3EE73967-0424-482F-AFC6-886A6AC149D0}">
+							<Comment>1035353295</Comment>
+						</State>
+						<State Name="Map" ID="{1D0F9462-0E12-470B-BB6F-EB07C114F0D7}">
+							<Comment>1048449605</Comment>
+						</State>
+						<State Name="Ship_Build_Mode" ID="{02A86A2E-1DA3-4A15-A44D-FBD773ACE84B}">
+							<Comment>2741915772</Comment>
+						</State>
+						<State Name="GameTable" ID="{28BFA486-0671-4AC4-AEA0-C9AD37ABF551}">
+							<Comment>2985101525</Comment>
+						</State>
+						<State Name="Frontend" ID="{D386CE34-50E2-426B-B03A-971257ED15C4}">
+							<Comment>4212191649</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Vehicle_Type" ID="{4B7BD9FF-428D-41E8-9258-377CDEFECF7F}">
+					<Comment>1648930842</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{EB6C60A3-E327-4D20-875A-20A914E9C147}"/>
+						<State Name="Submarine" ID="{0C83C9C5-E232-4FD1-A51A-3C4D2339E393}">
+							<Comment>232782671</Comment>
+						</State>
+						<State Name="Hovercraft" ID="{4EF1A9EA-C142-461A-868E-A87DFCF1516B}">
+							<Comment>1189297449</Comment>
+						</State>
+						<State Name="Pilgrim" ID="{DE52AAD8-272D-4923-A2C0-CAC4AB04B4BB}">
+							<Comment>1920759977</Comment>
+						</State>
+						<State Name="Rover" ID="{E14A7442-A76F-4116-A886-6580E31B39DE}">
+							<Comment>2101268223</Comment>
+						</State>
+						<State Name="DragonFly" ID="{C4C2EFD4-2EA9-4AC1-A6DE-769906EBB188}">
+							<Comment>3028993147</Comment>
+						</State>
+						<State Name="Buggy" ID="{78911591-FA18-430D-9836-235AA035C607}">
+							<Comment>3165045909</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Hyperspace" ID="{3C0C1C6A-7E45-44C5-8C87-B2B72DDF5FF6}">
+					<Comment>1800566397</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{734725A1-8624-4AB5-AEF9-6E52C9486851}"/>
+						<State Name="Hyperspace_Yes" ID="{138B0D27-58D4-4C10-98AA-C2ED109BB294}">
+							<Comment>92991041</Comment>
+						</State>
+						<State Name="Hyperspace_No" ID="{54EC3903-D59E-4DAB-AEC1-0124CCE1D733}">
+							<Comment>3084611261</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Storm_Type" ID="{F97B56D0-44DB-4D8D-8033-44C321F2522F}">
+					<Comment>1976129319</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{077E7C18-8CFB-4C5E-A729-E217C986BE62}"/>
+						<State Name="Snow" ID="{55C7B7EB-5245-4B74-98AC-51A206BC7E61}">
+							<Comment>787898836</Comment>
+						</State>
+						<State Name="Grav" ID="{46E78D3F-69D2-4671-8E6F-FB6DEBC5BCC7}">
+							<Comment>906520811</Comment>
+						</State>
+						<State Name="Regular" ID="{AAD1FF62-F888-4C31-9383-12A094F25AED}">
+							<Comment>2628937827</Comment>
+						</State>
+						<State Name="Fire" ID="{024BA2AD-4ABF-4BED-805A-63ABD746BB30}">
+							<Comment>2678880713</Comment>
+						</State>
+						<State Name="Humid" ID="{8DFF8632-7611-47F4-B6C5-D19810BF7CA4}">
+							<Comment>4021625694</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Vehicle" ID="{64713308-B14A-47DC-8425-53794BA59D47}">
+					<Comment>2025709351</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{09462E5D-2597-4B78-A10F-6A58571EE819}"/>
+						<State Name="Spaceship" ID="{32519C30-1238-4FAE-9C21-AFC4F2FB33D4}">
+							<Comment>554650843</Comment>
+						</State>
+						<State Name="Spaceship_Interior" ID="{D759BE11-2B2C-4A70-92CA-61BDD6BAE2F0}">
+							<Comment>1849406622</Comment>
+						</State>
+						<State Name="Land_Vehicle" ID="{20530A8C-7768-4F0C-B983-9F9C286C9F14}">
+							<Comment>2427673455</Comment>
+						</State>
+						<State Name="Land_Vehicle_FirstPerson" ID="{1866C682-959F-446D-853E-5826541F8C8A}">
+							<Comment>2468079403</Comment>
+						</State>
+						<State Name="NotInVehicle" ID="{58BA43B8-BCB0-4BD3-B08F-FF508A05ABF5}">
+							<Comment>3880288599</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Camouflage" ID="{9472E7FE-CF81-442C-8B88-B2AE3C4E178A}">
+					<Comment>4267144225</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{DC0C9F27-5973-459F-BE47-1B717019D7D7}"/>
+						<State Name="Off" ID="{EDE9CD8B-3469-4239-9825-5AFF922048DE}">
+							<Comment>930712164</Comment>
+						</State>
+						<State Name="On" ID="{5C78BBED-C545-4B5A-86D7-21D37ADA04DC}">
+							<Comment>1651971902</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
