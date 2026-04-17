@@ -1,10 +1,6 @@
-# GITIGNORE template for Wwise Project
-
-.backup*
-.cache*
-*.akd
-*.prof
+/GeneratedSoundBanks/Windows
 *.validationcache
 *.wsettings
-AkWwiseProjectData.asset
-IncrementalSoundBankData.xml
+*.akd
+/.cache
+/Originals/SFX
