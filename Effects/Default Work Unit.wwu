@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0D8545DA-77C2-409F-B6CF-929875735B0D}" SchemaVersion="123">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{0D8545DA-77C2-409F-B6CF-929875735B0D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0D8545DA-77C2-409F-B6CF-929875735B0D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Pulse_Verb_Algo" ID="{74B9D84B-272C-4D07-9622-8EF0C75D1942}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<Comment>116316242</Comment>
+				</Effect>
+				<Effect Name="Voice_Chat_Limiter" ID="{42FFD066-5565-42D6-A9C0-B93D18ACE64A}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+					<Comment>782325351</Comment>
+				</Effect>
+				<Effect Name="FX_Verb_Freighter_Hangar" ID="{CC94EA2E-F0F2-484B-A3B7-1B0B7D19DB7E}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<Comment>838772326</Comment>
+				</Effect>
+				<Effect Name="ByteBeat_Compressor" ID="{4D702CF1-F988-4BA7-A133-BC898D29B135}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<Comment>925179585</Comment>
+				</Effect>
+				<Effect Name="Meter_Rumble" ID="{64365EBC-1113-40EB-B666-4214A9CBF4AC}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<Comment>949475608</Comment>
+				</Effect>
+				<Effect Name="Voice_Chat_Compressor" ID="{19E3152E-2195-4AF2-86D1-16F0FF00C8E0}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<Comment>1015742598</Comment>
+				</Effect>
+				<Effect Name="VocAlien_SpaceStation_Delay" ID="{F96E6E17-F583-408E-B1C0-537EB31BAF0F}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<Comment>1157860365</Comment>
+				</Effect>
+				<Effect Name="New_Peak_Limiter" ID="{FAA4D538-697B-4837-9FB7-98CBA406F24B}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

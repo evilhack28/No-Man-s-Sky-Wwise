@@ -4,3 +4,5 @@
 *.akd
 /.cache
 /Originals/SFX
+/.backup
+/GeneratedSoundBanks

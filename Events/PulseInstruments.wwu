@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8FD416FB-1F61-4F9A-A9E2-079C9F18CC4D}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="PulseInstruments" ID="{8FD416FB-1F61-4F9A-A9E2-079C9F18CC4D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PulseInstrument_WT_Synth_Index_26" ID="{2B96F71C-8EA1-4DCF-9303-0571AAB56F5A}" ShortID="206413217">
+					<ChildrenList>
+						<Event Name="Play_WT_Synth_Index_26_melb_wantedKeys_5" ID="{99B997E7-1AB2-41B5-AAC4-36B8CB467F73}">
+							<ChildrenList>
+								<Action Name="" ID="{0CB9BB25-9BD8-4DD1-8D72-EC72E4056732}" ShortID="793091883"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

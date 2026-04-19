@@ -11,6 +11,453 @@
 						</Switch>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Alert_Police" ID="{8A0D9753-A1DC-4B44-BCEE-5FCAFC400CA6}">
+					<Comment>6827926</Comment>
+					<ChildrenList>
+						<Switch Name="Alert_Level04" ID="{2F5E0E40-37AE-47FF-ACAE-6B939BFB8055}">
+							<Comment>1729515402</Comment>
+						</Switch>
+						<Switch Name="Alert_Level05" ID="{E8D6FF02-43D9-4408-B6E7-1133617C8548}">
+							<Comment>1729515403</Comment>
+						</Switch>
+						<Switch Name="Alert_Level02" ID="{7E48E1E6-D550-4B13-B0E2-1160CDAE8005}">
+							<Comment>1729515404</Comment>
+						</Switch>
+						<Switch Name="Alert_Level03" ID="{D75B485D-5D58-4E69-A247-9BA955F54391}">
+							<Comment>1729515405</Comment>
+						</Switch>
+						<Switch Name="Alert_Level01" ID="{B14E0E96-D9BA-4699-95DA-4F78609F1870}">
+							<Comment>1729515407</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="VehicleType" ID="{F23C74E0-B96F-4936-AC0D-34D4FA18E7FE}">
+					<Comment>1064382335</Comment>
+					<ChildrenList>
+						<Switch Name="Submarine" ID="{0A1BAC6C-3477-4E2A-BFA9-0C15FF2B9229}">
+							<Comment>232782671</Comment>
+						</Switch>
+						<Switch Name="Hovercraft" ID="{D863BC15-35D6-4BDA-BD64-98ADC64CEB08}">
+							<Comment>1189297449</Comment>
+						</Switch>
+						<Switch Name="Pilgrim" ID="{FF09F8B3-8890-44CD-9C5F-93FD319363E7}">
+							<Comment>1920759977</Comment>
+						</Switch>
+						<Switch Name="Mech" ID="{978320BB-4C9D-4146-B37D-BA754C9545C0}">
+							<Comment>2657888854</Comment>
+						</Switch>
+						<Switch Name="Rover" ID="{D1752A41-EAB3-451C-8D63-6ADFC6F251FB}">
+							<Comment>2101268223</Comment>
+						</Switch>
+						<Switch Name="DragonFly" ID="{B08068DC-2408-442D-9737-CE4EBB87E8D5}">
+							<Comment>3028993147</Comment>
+						</Switch>
+						<Switch Name="Buggy" ID="{82B5A042-5800-4D61-9332-8A13755CF993}">
+							<Comment>3165045909</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AMB_Freighter_Internal" ID="{8E833E98-45D6-40AC-927E-571A0C5DCE59}">
+					<Comment>1597120850</Comment>
+					<ChildrenList>
+						<Switch Name="Bio" ID="{A9E42F2C-A34C-434F-891B-EFD51B9EC500}">
+							<Comment>647611013</Comment>
+						</Switch>
+						<Switch Name="Bridge" ID="{78906714-CC59-4DB3-AFE4-4F431183B227}">
+							<Comment>2068062714</Comment>
+						</Switch>
+						<Switch Name="Hangar" ID="{D2F5C465-3E5B-499D-B65C-7B9BC7609D3F}">
+							<Comment>2192450996</Comment>
+						</Switch>
+						<Switch Name="Industry" ID="{AF043B09-E2AE-4F54-99A3-4662FFDABCF7}">
+							<Comment>3411814351</Comment>
+						</Switch>
+						<Switch Name="Tech" ID="{DA5D5A12-6FA4-4FAF-A773-2FC86F708BEA}">
+							<Comment>3425445029</Comment>
+						</Switch>
+						<Switch Name="Corridor" ID="{E5261144-CC2A-4E3D-9F72-7B0B209F75A5}">
+							<Comment>4063189299</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="NPC_Type" ID="{A27A18E7-236B-433A-96BF-7EADD24372EF}">
+					<Comment>1715715497</Comment>
+					<ChildrenList>
+						<Switch Name="Astronaut" ID="{9FB4CA98-B853-45E4-8DE2-7E67101B3466}">
+							<Comment>300013534</Comment>
+						</Switch>
+						<Switch Name="Gek" ID="{85B08C49-75EA-4674-A99E-9C4F892D58E5}">
+							<Comment>646772380</Comment>
+						</Switch>
+						<Switch Name="Robot" ID="{823FB1FB-7217-451C-89E1-5EBF3344F493}">
+							<Comment>1930240631</Comment>
+						</Switch>
+						<Switch Name="Fourth_Proc" ID="{CF18834F-2288-4EE2-BA20-5F7C5F4FBA61}">
+							<Comment>2187950200</Comment>
+						</Switch>
+						<Switch Name="Vykeen" ID="{CE38CCE2-8549-4546-820D-FD954034D5EB}">
+							<Comment>3400224663</Comment>
+						</Switch>
+						<Switch Name="Korvax" ID="{140506E9-C806-4A11-9459-3B714BE7FA11}">
+							<Comment>3662469764</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Steps_Surface_Type" ID="{E7EDADDD-F4CB-4518-B0E3-18420AE3DB9C}">
+					<Comment>2693977229</Comment>
+				</SwitchGroup>
+				<SwitchGroup Name="AMB_Nexus" ID="{B9282823-687C-462F-8101-790A82C739E1}">
+					<Comment>2975799955</Comment>
+					<ChildrenList>
+						<Switch Name="Community" ID="{8E662F53-397D-444D-A535-4FCDCF2B18AA}">
+							<Comment>383049720</Comment>
+						</Switch>
+						<Switch Name="Plaza" ID="{CD208109-D62C-43A1-9FAA-E6E4A8039296}">
+							<Comment>450225173</Comment>
+						</Switch>
+						<Switch Name="Room" ID="{05F73C67-04B0-46B1-AC4F-C19B36CC5124}">
+							<Comment>2077253480</Comment>
+						</Switch>
+						<Switch Name="Hanger" ID="{BF1DEEF6-5A39-4FB8-8EC9-AB58B038C947}">
+							<Comment>2259561568</Comment>
+						</Switch>
+						<Switch Name="Corridor" ID="{43B99B24-182E-423A-ABEB-EB0D68952670}">
+							<Comment>4063189299</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Explosions_Ship_Size" ID="{81504DE4-91A6-4324-B534-4D7D941E54D2}">
+					<Comment>2211154562</Comment>
+					<ChildrenList>
+						<Switch Name="Small" ID="{415D31A8-D838-443C-AA18-BD0139738AA4}">
+							<Comment>1846755610</Comment>
+						</Switch>
+						<Switch Name="Medium" ID="{2380E06B-E2EC-4DC3-8C4E-5B6B63DF2CD3}">
+							<Comment>2849147824</Comment>
+						</Switch>
+						<Switch Name="Large" ID="{2EBC3C42-72DC-42C5-8E6E-226A7ABD8ED1}">
+							<Comment>4284352190</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Pl_Voice_Type" ID="{9FB2C9FB-3804-472B-88EE-7B259D9CB1F9}">
+					<ChildrenList>
+						<Switch Name="Low" ID="{C1D7BEE3-772F-47B1-A439-EEB94EDC454A}">
+							<Comment>545371365</Comment>
+						</Switch>
+						<Switch Name="Alien" ID="{9C492978-CD7E-4E38-9D66-F5C0C63F021C}">
+							<Comment>873374482</Comment>
+						</Switch>
+						<Switch Name="Off" ID="{E30C51FC-5CF8-4DD0-B4FC-3E973C049F3F}">
+							<Comment>930712164</Comment>
+						</Switch>
+						<Switch Name="High" ID="{5D6AC83C-AD2A-4549-86B9-6613486CFD2E}">
+							<Comment>3550808449</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="NPC_Ship_Engine_Position" ID="{6B6BE124-65B6-4992-AFAE-76707EA9A6CE}">
+					<ChildrenList>
+						<Switch Name="Woosher" ID="{961FFF8E-3153-4944-88B4-AC23E6A12C33}">
+							<Comment>765043546</Comment>
+						</Switch>
+						<Switch Name="Mid" ID="{0C9DCCB9-84FB-4EBD-BA2B-B314564E6DC6}">
+							<Comment>1182670505</Comment>
+						</Switch>
+						<Switch Name="Front" ID="{B75BD76B-9E07-4D9D-83BD-40B0933E4749}">
+							<Comment>1260494898</Comment>
+						</Switch>
+						<Switch Name="Rear" ID="{604ECE73-7E4B-40B9-98CF-7F208311A0F0}">
+							<Comment>2579596231</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Robot_Emote" ID="{ADE19A4F-235C-47D3-8D7D-503AAE301A9C}">
+					<Comment>3227577338</Comment>
+					<ChildrenList>
+						<Switch Name="Attack" ID="{1D6AD09A-8908-45BD-B720-512C1D507886}">
+							<Comment>180661997</Comment>
+						</Switch>
+						<Switch Name="Alert" ID="{E7DA3FB7-7533-41E8-A93E-D3504577EA9E}">
+							<Comment>721787521</Comment>
+						</Switch>
+						<Switch Name="Idle" ID="{93D1D1A1-AFB7-4C88-8E90-2AF9C07D5687}">
+							<Comment>1874288895</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AMB_Frigate" ID="{1B25B2E5-069F-4B8E-B6E7-E27B8E5C685C}">
+					<Comment>3281515910</Comment>
+					<ChildrenList>
+						<Switch Name="AMB_Frigate_Internal" ID="{05982D03-2425-4409-BA00-848C90F9FF96}">
+							<Comment>430663546</Comment>
+						</Switch>
+						<Switch Name="AMB_Frigate_External" ID="{E8B5C0B2-0DAC-497C-A59A-F94331F979A2}">
+							<Comment>729292036</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="ShipType" ID="{AAF7F457-FE21-4E08-8495-6D62861FCB07}">
+					<Comment>3485053503</Comment>
+					<ChildrenList>
+						<Switch Name="Dropship" ID="{A7EC5E03-D842-4E13-A623-5B4A4F6DAEC7}">
+							<Comment>132903764</Comment>
+						</Switch>
+						<Switch Name="Shuttle" ID="{C6F6B4D6-5F2D-42AD-BF6F-CFB4E7CBDAE0}">
+							<Comment>175273672</Comment>
+						</Switch>
+						<Switch Name="SpookShi" ID="{599E60DC-EA34-4ACA-BAB5-1E59984C3228}">
+							<Comment>713615691</Comment>
+						</Switch>
+						<Switch Name="Alien" ID="{80516C85-F1AF-46F9-9257-DD5387ACCF01}">
+							<Comment>873374482</Comment>
+						</Switch>
+						<Switch Name="Freighter" ID="{13B92FCF-8F8B-4743-AB16-87FDA7DFD6EE}">
+							<Comment>1038648139</Comment>
+						</Switch>
+						<Switch Name="Royal" ID="{1CB8DC45-1D9C-4CF9-A359-4FF725136F33}">
+							<Comment>1226713450</Comment>
+						</Switch>
+						<Switch Name="Corrupted_Drone" ID="{89ACF7B1-EBD5-4F50-9142-326CECCBD28A}">
+							<Comment>1272047316</Comment>
+						</Switch>
+						<Switch Name="Fighter" ID="{FA67E2A1-3652-45AD-8492-258E7CA18EA2}">
+							<Comment>1396550684</Comment>
+						</Switch>
+						<Switch Name="Dropship_Hover" ID="{4DC6D9E7-5344-4053-9DB8-F0F014FDBCA0}">
+							<Comment>1478563195</Comment>
+						</Switch>
+						<Switch Name="Robot" ID="{79C8AB0B-3AF8-4723-A9F1-76C53602F8F2}">
+							<Comment>1930240631</Comment>
+						</Switch>
+						<Switch Name="Frigate" ID="{57DF90AC-6870-4B35-81EB-DF578673C02E}">
+							<Comment>2412075331</Comment>
+						</Switch>
+						<Switch Name="Racer" ID="{7FDA6166-622C-497C-9149-3BEF5B9D2A0C}">
+							<Comment>2480289360</Comment>
+						</Switch>
+						<Switch Name="Drone" ID="{19C09426-B154-4E2F-9373-0C5E622010DE}">
+							<Comment>2739838641</Comment>
+						</Switch>
+						<Switch Name="Pirate" ID="{3F97875A-0D30-4491-A345-7836A74515CC}">
+							<Comment>2913175418</Comment>
+						</Switch>
+						<Switch Name="Scientific" ID="{03A51F9B-815C-47DF-B15A-4DBE54C48B7A}">
+							<Comment>3701703586</Comment>
+						</Switch>
+						<Switch Name="Frigate_Living" ID="{66517F8F-5A10-4362-9EB5-0BBDA98C7FC2}">
+							<Comment>3918836321</Comment>
+						</Switch>
+						<Switch Name="Buildable" ID="{D7769E48-239A-401A-A904-670BDA41C7D9}">
+							<Comment>4164172423</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Building_Room_Type" ID="{DC7D6B59-D11F-494F-988F-D11934FDD05F}">
+					<Comment>3874391808</Comment>
+					<ChildrenList>
+						<Switch Name="Settlement_SheriffsOffice" ID="{9E4AA903-56F7-4C89-AEB8-9DE3BAB13DD3}">
+							<Comment>39349223</Comment>
+						</Switch>
+						<Switch Name="Settlement_Farm" ID="{3B32BC86-3208-4A43-8791-742158737DA9}">
+							<Comment>117110927</Comment>
+						</Switch>
+						<Switch Name="Settlement_Double" ID="{D77C3C90-CB91-41FE-A2DA-D94A858FCD4E}">
+							<Comment>999374716</Comment>
+						</Switch>
+						<Switch Name="Settlement_SmallIndustrial" ID="{86D37020-FDCA-4A66-8374-A8A8AD7B11C2}">
+							<Comment>1034967017</Comment>
+						</Switch>
+						<Switch Name="Settlement_Bar" ID="{20F63126-1AA0-469D-A602-93F00D8426F8}">
+							<Comment>1069417970</Comment>
+						</Switch>
+						<Switch Name="Settlement_Medium" ID="{B24B1F1F-7C58-4F31-BB65-15E65D0D80C9}">
+							<Comment>1743829430</Comment>
+						</Switch>
+						<Switch Name="Settlement_Factory" ID="{1B2E382A-17F5-414B-8039-ECEBED3F14A5}">
+							<Comment>2321622427</Comment>
+						</Switch>
+						<Switch Name="Biodome" ID="{47E36D95-3F57-4F78-B2D7-62301B6732A3}">
+							<Comment>2545045952</Comment>
+						</Switch>
+						<Switch Name="Settlement_Large" ID="{B7D68FEB-9755-4112-8CD3-9EC58EAAE30D}">
+							<Comment>3650475128</Comment>
+						</Switch>
+						<Switch Name="Cube" ID="{3C19F94B-196C-4F4C-AAD7-9CF2F611A62A}">
+							<Comment>4052031814</Comment>
+						</Switch>
+						<Switch Name="Corridor" ID="{E9F22552-D2A3-4D41-84EB-4D12E5BE8C33}">
+							<Comment>4063189299</Comment>
+						</Switch>
+						<Switch Name="Generic" ID="{67EA5CDE-FB84-4956-BFF3-22EA5B2C4CA7}">
+							<Comment>4294388576</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Creature_Step_Speed" ID="{73D825C5-8020-4FB8-976C-F16D3D72ADBB}">
+					<Comment>3952047151</Comment>
+					<ChildrenList>
+						<Switch Name="Run" ID="{B53337BE-05A2-4D29-90DA-52E5E0DD5292}">
+							<Comment>712161704</Comment>
+						</Switch>
+						<Switch Name="Walk" ID="{2EA06E06-F3F0-4311-BEF7-7376E2408DDD}">
+							<Comment>2108779966</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AMB_Localised" ID="{7B77C5EF-31EA-4762-B9B6-7EED6893044F}">
+					<Comment>3964268628</Comment>
+					<ChildrenList>
+						<Switch Name="Forest" ID="{6A9C25DE-05C7-42EB-BB55-D6A1E2C07718}">
+							<Comment>491961918</Comment>
+						</Switch>
+						<Switch Name="Shelter" ID="{5C5D288A-E05C-4475-A45A-43E806ACB8AC}">
+							<Comment>2076181832</Comment>
+						</Switch>
+						<Switch Name="Clearing" ID="{C63BFAA9-12F9-4971-95FE-AAD367014B29}">
+							<Comment>2150680680</Comment>
+						</Switch>
+						<Switch Name="Meadow" ID="{FBBEA453-4A9E-442E-922D-8D7ECAE81291}">
+							<Comment>2435155766</Comment>
+						</Switch>
+						<Switch Name="Water" ID="{895F3E94-978B-42B8-96B7-03D03968CC5C}">
+							<Comment>2654748154</Comment>
+						</Switch>
+						<Switch Name="Silence" ID="{512A856F-DEEB-4C1C-9515-78FF02DE806D}">
+							<Comment>3041563226</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Pl_Hazard_Type" ID="{5A679320-7D90-496B-B5C4-E16AE427D9EC}">
+					<Comment>4222783891</Comment>
+					<ChildrenList>
+						<Switch Name="Radiation" ID="{1341E724-9F1D-4988-B782-741DA7B7E100}">
+							<Comment>493973294</Comment>
+						</Switch>
+						<Switch Name="Hot" ID="{1D8114E5-7CF9-4481-8B6D-8BE65EF6FDE2}">
+							<Comment>1082843450</Comment>
+						</Switch>
+						<Switch Name="Toxic" ID="{601F3603-E5CD-4417-AB40-2AE5398E7B17}">
+							<Comment>1400550014</Comment>
+						</Switch>
+						<Switch Name="Underwater" ID="{F21004E7-043E-4E6E-B94E-49D287C74CB1}">
+							<Comment>2213237662</Comment>
+						</Switch>
+						<Switch Name="Cold" ID="{8B1190A6-AE4D-4F46-8295-57FFF869733E}">
+							<Comment>3687161267</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Creature_Class" ID="{8A965470-657D-4DC1-A07A-A187C0759A05}">
+					<Comment>4228015575</Comment>
+					<ChildrenList>
+						<Switch Name="BONECAT" ID="{A32A38A7-C0A4-476B-BEE8-4307C4213C5E}">
+							<Comment>211065533</Comment>
+						</Switch>
+						<Switch Name="Butterfly" ID="{A68F54F7-35E5-4A82-A490-C4D73B4D255C}">
+							<Comment>222366258</Comment>
+						</Switch>
+						<Switch Name="Beetle" ID="{08D85473-B714-4A23-B45E-232F59AFBA85}">
+							<Comment>266383236</Comment>
+						</Switch>
+						<Switch Name="Bonecow" ID="{A5FA2CE2-892A-48BB-8CCC-78D13CA87410}">
+							<Comment>378841840</Comment>
+						</Switch>
+						<Switch Name="ROCKCREATURE" ID="{17B77E31-68C1-4792-819D-676D635BFCD5}">
+							<Comment>406134045</Comment>
+						</Switch>
+						<Switch Name="Fiend" ID="{F1BA3941-66D1-4DF9-A776-E46AB243BBC0}">
+							<Comment>547913729</Comment>
+						</Switch>
+						<Switch Name="WeirdRoll" ID="{3D0534FE-18B5-4949-A979-9EC9CFA219BF}">
+							<Comment>674705453</Comment>
+						</Switch>
+						<Switch Name="Cat" ID="{D721CF11-07E1-4AF9-A413-B38465CF4F79}">
+							<Comment>983016379</Comment>
+						</Switch>
+						<Switch Name="Spider" ID="{AF87D437-28F4-43B3-94EC-47FAE4EC9000}">
+							<Comment>1016990062</Comment>
+						</Switch>
+						<Switch Name="Cow" ID="{7EDCD9A8-361E-4D69-BD74-8DB8A18FCE12}">
+							<Comment>1083682102</Comment>
+						</Switch>
+						<Switch Name="TwoLegAntelope" ID="{1F996ABA-EEC6-409C-92BD-30A6451293BF}">
+							<Comment>1130282825</Comment>
+						</Switch>
+						<Switch Name="Bird" ID="{CA4C58B6-EB3B-40B2-8B38-23C4C7AC8A50}">
+							<Comment>1544377644</Comment>
+						</Switch>
+						<Switch Name="SixLegCat" ID="{9048B387-F8C8-4ACB-BD7F-8AEAA0F8E60D}">
+							<Comment>1550640747</Comment>
+						</Switch>
+						<Switch Name="WeirdCrystal" ID="{FDAB71F6-D0C9-4A4B-894E-6D2862BEFA48}">
+							<Comment>1600154362</Comment>
+						</Switch>
+						<Switch Name="SixLegCow" ID="{CF9E8028-1184-458E-BC40-D1737BC32D71}">
+							<Comment>1651306470</Comment>
+						</Switch>
+						<Switch Name="Blob" ID="{A94D42DA-15DD-4A9C-9FB0-E0859B5C04BA}">
+							<Comment>1762045336</Comment>
+						</Switch>
+						<Switch Name="Triceratops" ID="{A480B740-6C58-4409-AAB8-325E8B47BEA8}">
+							<Comment>1864124763</Comment>
+						</Switch>
+						<Switch Name="Rodent" ID="{644EB7B3-E9C9-4A7D-B5AB-2C2CDDE1E1B5}">
+							<Comment>2203462579</Comment>
+						</Switch>
+						<Switch Name="PlantCat" ID="{8B1D1122-DB77-4FCC-91DF-FD4B0B270093}">
+							<Comment>2263914008</Comment>
+						</Switch>
+						<Switch Name="WALKER" ID="{DDAAB069-0120-40E0-AF79-52D1E78D9EC9}">
+							<Comment>2425302431</Comment>
+						</Switch>
+						<Switch Name="Antelope" ID="{3A19FC19-AA42-47F9-924D-9797041B4688}">
+							<Comment>2425761531</Comment>
+						</Switch>
+						<Switch Name="ProtoRoller" ID="{703B7247-5082-4EB2-BE02-2BDD9AFD3F35}">
+							<Comment>2566437297</Comment>
+						</Switch>
+						<Switch Name="FlyingSnake" ID="{576E3BE3-0B24-49EE-AC22-E455F2E71713}">
+							<Comment>2797652708</Comment>
+						</Switch>
+						<Switch Name="Shark" ID="{7882B6EC-A186-4AA7-BAFF-47BBDD08D498}">
+							<Comment>2986888348</Comment>
+						</Switch>
+						<Switch Name="ROBOTANTELOPE" ID="{FCE62087-1A30-4321-B524-8EECE57A3781}">
+							<Comment>3203960277</Comment>
+						</Switch>
+						<Switch Name="Trex" ID="{7355CCC1-BD5D-4B84-87C5-84B865F230AC}">
+							<Comment>3322072364</Comment>
+						</Switch>
+						<Switch Name="FlyingLizard" ID="{C335C66B-64A9-490B-AD7B-5FC6F74443F0}">
+							<Comment>3342921024</Comment>
+						</Switch>
+						<Switch Name="Skeleton" ID="{01D63C55-0BD8-4497-A7E1-E9EE548109E9}">
+							<Comment>3478279848</Comment>
+						</Switch>
+						<Switch Name="WalkingBuilding" ID="{CE3F2678-45A9-4E0B-954A-828D7AA02CE5}">
+							<Comment>3593308358</Comment>
+						</Switch>
+						<Switch Name="ARTHROPOD" ID="{769EBA3B-0578-4936-A641-A4868CBDC9E4}">
+							<Comment>3791831290</Comment>
+						</Switch>
+						<Switch Name="Grunt" ID="{E734F2EB-2D28-4408-A0E7-FC77CE9BC1C1}">
+							<Comment>3797621065</Comment>
+						</Switch>
+						<Switch Name="Strider" ID="{E23FD7DC-1B93-49DF-AEAB-820BDCFD9D42}">
+							<Comment>3934948392</Comment>
+						</Switch>
+						<Switch Name="WeirdFloat" ID="{4B9892FB-9B70-4080-819B-94053A28F782}">
+							<Comment>3954546930</Comment>
+						</Switch>
+						<Switch Name="QUAD" ID="{839A5937-1712-436B-9B9D-329E4A37BE37}">
+							<Comment>4065015520</Comment>
+						</Switch>
+						<Switch Name="Diplo" ID="{2DEC97E3-7C18-41BD-B945-3E38E2587B4B}">
+							<Comment>4070914323</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

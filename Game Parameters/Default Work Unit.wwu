@@ -83,6 +83,54 @@
 								<Property Name="InitialValue" Type="Real64" Value="0"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="Pulse_Event_PanLR" ID="{02153495-860B-476F-BFDD-73F8D7C327CE}">
+							<Comment>18151427</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pulse_Event_Pitch" ID="{92A1A545-E4B9-4EE8-8800-DFA8ED355149}">
+							<Comment>1891889666</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pulse_Event_SendBus_03" ID="{0224251B-547A-45B4-A7FB-3A6C3115222D}">
+							<Comment>2954454836</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pulse_Event_SendBus_02" ID="{6652E54F-3DF9-4668-8F2E-1AF7EE94ACEA}">
+							<Comment>2954454837</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pulse_Event_SendBus_01" ID="{91B0DAB9-6058-497C-A2E5-8F54BF68DB97}">
+							<Comment>2954454838</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pulse_Event_SendBus_00" ID="{F4191ECC-25FA-48BF-ACEB-A896770E68B6}">
+							<Comment>2954454839</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pulse_Event_Volume" ID="{2B4E2670-3C70-47FD-A68C-7AB5B6A792EA}">
+							<Comment>3465058902</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Pulse_Event_PanFR" ID="{47732BC9-827B-4A44-BA56-280BF4C4E615}">
+							<Comment>4145342657</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{50F3681C-11B9-4CC3-B7F5-43D94E9E615F}" ShortID="408127780">

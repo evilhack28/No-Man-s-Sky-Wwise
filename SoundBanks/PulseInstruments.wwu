@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8462CD07-02ED-4F83-B688-4000029DF127}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="PulseInstruments" ID="{8462CD07-02ED-4F83-B688-4000029DF127}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="pulseinstrument_wt_synth_index_26" ID="{A54EDCA8-747C-4D16-A924-66D25838FF2D}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

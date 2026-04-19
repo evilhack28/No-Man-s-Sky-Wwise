@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{600F3A14-15C8-4DFF-A336-CECE93425C51}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="PulseInstruments" ID="{600F3A14-15C8-4DFF-A336-CECE93425C51}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="PulseActorMixer" ID="{88CF1B8D-61A2-4ADA-A923-82E1AAC96469}" ShortID="628448599">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BA4EF8F-C3B5-49F2-99DA-C1685982797F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239AF30E-8726-42AD-8843-1B2C2DE3556A}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

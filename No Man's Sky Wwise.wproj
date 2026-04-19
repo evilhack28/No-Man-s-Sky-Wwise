@@ -25,8 +25,7 @@
 				<Property Name="GenerateMainSoundBank" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBankJSON" Type="bool" Value="False"/>
 				<Property Name="GenerateSoundBankXML" Type="bool" Value="True"/>
-				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
-				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="False"/>
+				<Property Name="MediaAutoBankSubFolders" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
@@ -56,7 +55,7 @@
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2024.1.2|Build=8726|VersionName=v2024.1.2|Config=Release"/>
 			</PropertyList>
 			<MiscSettings>
-				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Cache"><![CDATA[U:\JENKINS\CW\NMS\RELEASE\GAME\ASSETS\EXPORTED\AUDIO\.cache\]]></MiscSettingEntry>
 				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
 			</MiscSettings>
 			<SharedValues>
