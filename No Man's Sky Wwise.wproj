@@ -6,25 +6,26 @@
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{125D4D6A-8472-4D7D-B920-BBDAF7225C90}"/>
 			</Platforms>
 			<LanguageList>
-				<Language Name="Chinese(PRS)" ID="{E3970185-4296-444C-AE7A-7A6F4F3B6972}"/>
-				<Language Name="Chinese(Tawain)" ID="{91A0F026-D47C-47FD-BC6F-F832E011403E}"/>
-				<Language Name="English(US)" ID="{593AEF24-6969-475F-9938-C8A84F301A2B}"/>
+				<Language Name="chinese(prc)" ID="{18E5EC5E-D0FF-4115-91DB-C8C321BAACBD}"/>
+				<Language Name="chinese(taiwan)" ID="{093A9D12-329F-4408-84F5-65999140844C}"/>
+				<Language Name="english(us)" ID="{D5C1A78B-AA72-441F-96E5-10A606FA6DED}"/>
 				<Language Name="External" ID="{A965FCC3-FF7E-4606-A6EB-214C63AACA1C}"/>
-				<Language Name="French(France)" ID="{5E411B73-C914-4159-A220-7C7AE05B42D1}"/>
-				<Language Name="German" ID="{2D95ADA7-8558-42D3-85D7-6007F89A07AE}"/>
-				<Language Name="Italian" ID="{30C07D1A-D10A-4F69-8F90-F35DDCF69246}"/>
-				<Language Name="Japanese" ID="{AF9B3F59-A6B6-4282-B3F8-C345BDCC36A6}"/>
-				<Language Name="Korean" ID="{3547F2BC-24F5-49C3-A7A1-3AAF91C5A510}"/>
+				<Language Name="french(france)" ID="{A736D858-5509-4D01-AD55-1EE910C6D720}"/>
+				<Language Name="german" ID="{12F09710-4464-4D1E-A164-BB53EC90D76A}"/>
+				<Language Name="italian" ID="{804C092C-CD7B-47D0-B4E4-DBF9B845C0AF}"/>
+				<Language Name="japanese" ID="{585EA1F7-B898-40C7-835A-119AB25C4491}"/>
+				<Language Name="korean" ID="{138D7D81-9E27-438B-82B9-C008897CF740}"/>
 				<Language Name="Mixed" ID="{52544A7C-821F-42B5-93DE-E8FE1E06C13E}"/>
-				<Language Name="Polish" ID="{84F25BF3-9B56-4B83-B7CC-A489D6BBF25C}"/>
-				<Language Name="Portuguese(Brazil)" ID="{7680B624-8BBC-449D-8F32-B73547AC1B0A}"/>
-				<Language Name="Portuguese(Portugal)" ID="{D4058B66-0FFF-4518-8931-935616C2AD61}"/>
-				<Language Name="Russian" ID="{145ECC3A-248A-42F6-AC53-72B5F310CF7D}"/>
+				<Language Name="polish" ID="{71504E99-E60D-4F82-BC8D-CD158E39AC52}"/>
+				<Language Name="portuguese(brazil)" ID="{6AEF6FAE-240C-443E-9B09-EA35C6C70D49}"/>
+				<Language Name="portuguese(portugal)" ID="{FE4296A4-509D-47A0-91A1-8834B5CC6F22}"/>
+				<Language Name="russian" ID="{40630766-6753-4EDD-980B-83DC13CC691B}"/>
 				<Language Name="SFX" ID="{520929DF-660B-4626-B829-1EE40AE3371C}"/>
-				<Language Name="Spanish(Mexico)" ID="{D0D6FC9E-93B6-4BB3-91DE-BB1D2E49C2D7}"/>
-				<Language Name="Spanish(Spain)" ID="{15DC5554-8316-4429-BAF1-E5398F1C92B2}"/>
+				<Language Name="spanish(mexico)" ID="{4AE9D6A2-C31D-4D17-BC16-3038AC9006AF}"/>
+				<Language Name="spanish(spain)" ID="{5040E4DC-BAB1-4805-ACA6-3C120FCBB47A}"/>
 			</LanguageList>
 			<PropertyList>
+				<Property Name="DefaultLanguage" Type="string" Value="english(us)"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
